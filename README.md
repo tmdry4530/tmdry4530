@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg?v=2" width="100%" alt="chamdom — agent-assisted builder, operator systems, crypto cockpits" />
+<img src="assets/banner.svg" width="100%" alt="chamdom — agent-assisted builder, operator systems, crypto cockpits" />
 
 <br />
 
