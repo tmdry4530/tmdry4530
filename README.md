@@ -4,9 +4,7 @@
 
 **Agent-assisted builder · operator tools · crypto / Web3 cockpits**
 
-<a href="https://tokscale.ai/u/tmdry4530">
-  <img src="https://tokscale.ai/api/embed/tmdry4530/svg?template=minimal&theme=dark&tokens=compact&cost=compact" width="720" alt="Tokscale token usage and cost" />
-</a>
+[![Tokscale Stats](https://tokscale.ai/api/embed/tmdry4530/svg?template=terminal&graph=1&tokens=compact&cost=compact)](https://tokscale.ai/u/tmdry4530)
 
 <br />
 
