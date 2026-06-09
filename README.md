@@ -19,14 +19,17 @@
 <br />
 
 <img src="https://img.shields.io/badge/agent--assisted-builder-8B5CF6?style=for-the-badge&labelColor=0D1117" alt="agent-assisted builder" />
-<img src="https://img.shields.io/badge/operator--tools-06B6D4?style=for-the-badge&labelColor=0D1117" alt="operator tools" />
-<img src="https://img.shields.io/badge/crypto--cockpits-F59E0B?style=for-the-badge&labelColor=0D1117" alt="crypto cockpits" />
+<img src="https://img.shields.io/badge/operator-tools-06B6D4?style=for-the-badge&labelColor=0D1117" alt="operator tools" />
+<img src="https://img.shields.io/badge/crypto-cockpits-F59E0B?style=for-the-badge&labelColor=0D1117" alt="crypto cockpits" />
+<img src="https://img.shields.io/badge/monad%20%2F%20web3-ERC--8004%20%C2%B7%20x402-A855F7?style=for-the-badge&labelColor=0D1117" alt="Monad / web3: ERC-8004 · x402" />
 
 </div>
 
----
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:5B21B6,50:8B5CF6,100:06B6D4&height=3" width="100%" alt="" />
+</div>
 
-## What I build
+## ❯ what I build
 
 > Local agents, workflow dashboards, trading-signal cockpits, and product MVPs — shipped with logs, runbooks, and safety gates.
 
@@ -35,22 +38,78 @@
 - **Operator consoles** — dashboards that explain state, blockers, and the next action
 - **Product prototypes** — TypeScript / React / Node / Python / C# builds that actually run
 
-## Selected work
+## ❯ selected work
 
 <div align="center">
 
-| Project | Stack | What it is |
-|:--|:--:|:--|
-| **[K-Terminal](https://github.com/tmdry4530/K-Terminal)** | `JS` | market / news-trading cockpit |
-| **[runbook-lens](https://github.com/tmdry4530/runbook-lens)** | `C#` | local-first log triage & incident-brief workspace |
-| **[civicdesk-csharp](https://github.com/tmdry4530/civicdesk-csharp)** | `.NET 8` | request intake · approval · audit operations console |
-| **[agent-bounty-hunter](https://github.com/tmdry4530/agent-bounty-hunter)** | `TS` | AI-agent bounty marketplace · ERC-8004 · x402 · Monad |
-| **[ops-console](https://github.com/tmdry4530/ops-console)** | `TS` | operator console experiments |
-| **[SyncSpaceDesktop](https://github.com/tmdry4530/SyncSpaceDesktop)** | `C#` | WPF WebView2 desktop wrapper for SyncSpace |
+<table>
+<tr>
+<td width="50%" align="left" valign="top">
+
+**[K-Terminal](https://github.com/tmdry4530/K-Terminal)**
+
+![JS](https://img.shields.io/badge/JS-F59E0B?style=flat-square&labelColor=0D1117&logo=javascript&logoColor=F59E0B)
+
+market / news-trading cockpit
+
+</td>
+<td width="50%" align="left" valign="top">
+
+**[runbook-lens](https://github.com/tmdry4530/runbook-lens)**
+
+![C#](https://img.shields.io/badge/C%23-06B6D4?style=flat-square&labelColor=0D1117&logo=dotnet&logoColor=06B6D4)
+
+local-first log triage & incident-brief workspace
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="left" valign="top">
+
+**[civicdesk-csharp](https://github.com/tmdry4530/civicdesk-csharp)**
+
+![.NET 8](https://img.shields.io/badge/.NET%208-8B5CF6?style=flat-square&labelColor=0D1117&logo=dotnet&logoColor=8B5CF6)
+
+request intake · approval · audit operations console
+
+</td>
+<td width="50%" align="left" valign="top">
+
+**[agent-bounty-hunter](https://github.com/tmdry4530/agent-bounty-hunter)**
+
+![TS](https://img.shields.io/badge/TS-22D3EE?style=flat-square&labelColor=0D1117&logo=typescript&logoColor=22D3EE)
+
+AI-agent bounty marketplace · ERC-8004 · x402 · Monad
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="left" valign="top">
+
+**[ops-console](https://github.com/tmdry4530/ops-console)**
+
+![TS](https://img.shields.io/badge/TS-22D3EE?style=flat-square&labelColor=0D1117&logo=typescript&logoColor=22D3EE)
+
+operator console experiments
+
+</td>
+<td width="50%" align="left" valign="top">
+
+**[SyncSpaceDesktop](https://github.com/tmdry4530/SyncSpaceDesktop)**
+
+![C#](https://img.shields.io/badge/C%23-06B6D4?style=flat-square&labelColor=0D1117&logo=dotnet&logoColor=06B6D4)
+
+WPF WebView2 desktop wrapper for SyncSpace
+
+</td>
+</tr>
+</table>
 
 </div>
 
----
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:F59E0B,50:06B6D4,100:5B21B6&height=3" width="100%" alt="" />
+</div>
 
 <div align="center">
 
