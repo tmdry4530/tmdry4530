@@ -3,6 +3,7 @@
 <img src="assets/banner.svg" width="100%" alt="chamdom - AI-agent products, full-stack systems, fast MVPs" />
 
 <br />
+<br />
 
 [![Tokscale Stats](https://tokscale.ai/api/embed/tmdry4530/svg?template=blueprint&color=YlGnBu&tokens=compact&cost=compact)](https://tokscale.ai/u/tmdry4530)
 
@@ -85,18 +86,4 @@ Personal portfolio and project hub built as a modern Next.js site.
 </picture>
 
 <br />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=tmdry4530&theme=tokyonight&hide_border=true" />
-  <img src="https://streak-stats.demolab.com?user=tmdry4530&theme=default&hide_border=true" alt="chamdom GitHub streak stats" />
-</picture>
-
-<br />
-<br />
-
-<a href="https://github.com/tmdry4530">GitHub</a> &nbsp;·&nbsp;
-<a href="https://tokscale.ai/u/tmdry4530">Tokscale</a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,45:06B6D4,100:5B21B6&height=110&section=footer" width="100%" alt="footer wave" />
-
 </div>
