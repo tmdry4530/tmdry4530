@@ -1,0 +1,14 @@
+{
+  "name": "tmdry4530-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Railway-deployable profile site for chamdom.",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="chamdom is a TypeScript-first full-stack developer building AI-agent and product automation systems."
+    >
+    <title>chamdom | AI-agent products and full-stack systems</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0d1117;
+        --surface: #111827;
+        --surface-soft: #161b22;
+        --border: #30363d;
+        --text: #e6edf3;
+        --muted: #8b949e;
+        --accent: #22d3ee;
+        --accent-strong: #f59e0b;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        line-height: 1.6;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .page {
+        width: min(1040px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 32px 0 40px;
+      }
+
+      .hero {
+        display: grid;
+        gap: 24px;
+      }
+
+      .hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .intro {
+        display: grid;
+        gap: 10px;
+        max-width: 820px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 6vw, 4.5rem);
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        margin: 0;
+        color: var(--muted);
+        font-size: clamp(1rem, 2vw, 1.2rem);
+      }
+
+      .widgets {
+        display: grid;
+        gap: 16px;
+        justify-items: center;
+        padding: 8px 0;
+      }
+
+      .widgets img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .section {
+        margin-top: 32px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border);
+      }
+
+      h2 {
+        margin: 0 0 14px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--accent);
+      }
+
+      .stack {
+        display: grid;
+        gap: 10px;
+        margin: 0;
+      }
+
+      .stack div {
+        display: grid;
+        grid-template-columns: 96px 1fr;
+        gap: 16px;
+        align-items: baseline;
+      }
+
+      .stack dt {
+        color: var(--muted);
+        font-weight: 700;
+      }
+
+      .stack dd {
+        margin: 0;
+      }
+
+      .projects {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .project {
+        display: grid;
+        gap: 8px;
+        min-height: 188px;
+        padding: 18px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: var(--surface-soft);
+        text-decoration: none;
+      }
+
+      .project:hover,
+      .project:focus-visible {
+        border-color: var(--accent);
+        outline: none;
+      }
+
+      .project h3 {
+        margin: 0;
+        font-size: 1.05rem;
+      }
+
+      .project p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        align-self: end;
+      }
+
+      .tags span {
+        padding: 3px 7px;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        color: var(--text);
+        font-size: 0.78rem;
+      }
+
+      .activity {
+        overflow: hidden;
+        border-radius: 8px;
+      }
+
+      .activity img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+
+      .links a {
+        display: inline-flex;
+        padding: 8px 12px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        text-decoration: none;
+      }
+
+      .links a:hover,
+      .links a:focus-visible {
+        border-color: var(--accent-strong);
+        outline: none;
+      }
+
+      @media (max-width: 760px) {
+        .page {
+          width: min(100% - 20px, 1040px);
+          padding-top: 16px;
+        }
+
+        .projects {
+          grid-template-columns: 1fr;
+        }
+
+        .stack div {
+          grid-template-columns: 1fr;
+          gap: 2px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero" aria-labelledby="profile-title">
+        <img src="/assets/banner.svg" alt="chamdom - AI-agent products, full-stack systems, fast MVPs">
+        <div class="intro">
+          <h1 id="profile-title">TypeScript-first full-stack developer</h1>
+          <p class="lead">
+            Building AI-agent products, prompt infrastructure, automation tools, and fast product MVPs.
+          </p>
+        </div>
+      </section>
+
+      <section class="widgets" aria-label="Usage and technology badges">
+        <a href="https://tokscale.ai/u/tmdry4530">
+          <img
+            src="https://tokscale.ai/api/embed/tmdry4530/svg?template=terminal&graph=1&tokens=compact&cost=compact"
+            alt="Tokscale AI usage"
+          >
+        </a>
+        <img
+          src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,express,nestjs,python,postgres,solidity,docker&theme=dark"
+          alt="TypeScript, React, Next.js, Node.js, Express, NestJS, Python, PostgreSQL, Solidity, Docker"
+        >
+      </section>
+
+      <section class="section" aria-labelledby="stack-title">
+        <h2 id="stack-title">Stack</h2>
+        <dl class="stack">
+          <div>
+            <dt>Primary</dt>
+            <dd>TypeScript, React, Next.js, Node.js, PostgreSQL</dd>
+          </div>
+          <div>
+            <dt>Backend</dt>
+            <dd>Express, NestJS, Python</dd>
+          </div>
+          <div>
+            <dt>Infra</dt>
+            <dd>Docker</dd>
+          </div>
+          <div>
+            <dt>Exploring</dt>
+            <dd>Solidity, AI-agent workflows</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="section" aria-labelledby="projects-title">
+        <h2 id="projects-title">Featured Projects</h2>
+        <div class="projects">
+          <a class="project" href="https://github.com/Base-PoP/Proof-of-Prompt">
+            <h3>Proof-of-Prompt</h3>
+            <p>
+              Prompt evaluation and sharing platform with AI model workflows, x402 payments, and community feedback.
+            </p>
+            <div class="tags" aria-label="Project stack">
+              <span>Next.js</span>
+              <span>Express</span>
+              <span>PostgreSQL</span>
+              <span>Solidity</span>
+            </div>
+          </a>
+
+          <a class="project" href="https://github.com/tmdry4530/Job-tracker">
+            <h3>Job Tracker</h3>
+            <p>Job-search workflow tracker with job capture, JD extraction, AI summaries, and interview prep.</p>
+            <div class="tags" aria-label="Project stack">
+              <span>TypeScript</span>
+              <span>AI</span>
+              <span>Automation</span>
+            </div>
+          </a>
+
+          <a class="project" href="https://github.com/tmdry4530/DrawMate">
+            <h3>DrawMate</h3>
+            <p>Drawing-focused product workspace with PRD, user flows, API specs, ERD, and architecture docs.</p>
+            <div class="tags" aria-label="Project stack">
+              <span>Next.js</span>
+              <span>Supabase</span>
+              <span>Product docs</span>
+            </div>
+          </a>
+
+          <a class="project" href="https://github.com/tmdry4530/portfolio_v2">
+            <h3>Portfolio v2</h3>
+            <p>Personal portfolio and project hub built as a modern Next.js site.</p>
+            <div class="tags" aria-label="Project stack">
+              <span>Next.js</span>
+              <span>TypeScript</span>
+              <span>Tailwind CSS</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="activity-title">
+        <h2 id="activity-title">Activity</h2>
+        <picture class="activity">
+          <source
+            media="(prefers-color-scheme: dark)"
+            srcset="https://github-readme-activity-graph.vercel.app/graph?username=tmdry4530&theme=tokyo-night&hide_border=true&area=true"
+          >
+          <img
+            src="https://github-readme-activity-graph.vercel.app/graph?username=tmdry4530&theme=github&hide_border=true&area=true"
+            alt="chamdom contribution activity graph"
+          >
+        </picture>
+      </section>
+
+      <section class="section" aria-labelledby="links-title">
+        <h2 id="links-title">Links</h2>
+        <ul class="links">
+          <li><a href="https://github.com/tmdry4530">GitHub</a></li>
+          <li><a href="https://tokscale.ai/u/tmdry4530">Tokscale</a></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
