@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="1200" height="180" fill="none" role="img" aria-label="chamdom - AI agents, steady shipping, multi-domain systems">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="1200" height="180" fill="none" role="img" aria-label="chamdom - AI-agent products, full-stack systems, fast MVPs">
   <defs>
     <linearGradient id="scan" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#22D3EE" stop-opacity="0"/>
@@ -15,14 +15,14 @@
       .cursor { animation: cursor 7s steps(58, end) infinite, blink 0.8s step-end infinite; }
       .scan { animation: scan 7s ease-in-out infinite; }
       @keyframes type {
-        0%, 10% { width: 0; }
-        70%, 86% { width: 730px; }
-        100% { width: 0; }
+        0%, 18% { width: 730px; }
+        28%, 38% { width: 0; }
+        82%, 100% { width: 730px; }
       }
       @keyframes cursor {
-        0%, 10% { transform: translateX(-730px); }
-        70%, 86% { transform: translateX(0); }
-        100% { transform: translateX(-730px); }
+        0%, 18% { transform: translateX(0); }
+        28%, 38% { transform: translateX(-730px); }
+        82%, 100% { transform: translateX(0); }
       }
       @keyframes blink {
         50% { opacity: 0; }
@@ -41,7 +41,7 @@
   <g>
     <text class="title" x="96" y="84" fill="#E6EDF3">chamdom</text>
     <g clip-path="url(#terminal-reveal)">
-      <text class="sub" x="96" y="118" fill="#8B949E">AI agents / steady shipping / multi-domain systems</text>
+      <text class="sub" x="96" y="118" fill="#8B949E">AI-agent products / full-stack systems / fast MVPs</text>
     </g>
     <rect class="cursor" x="826" y="96" width="10" height="28" rx="2" fill="#22D3EE"/>
   </g>
