@@ -7,7 +7,9 @@
 I work across React, Next.js, Node.js, NestJS, Python, PostgreSQL, and Docker.<br>
 Currently focused on AI agents, prompt infrastructure, automation tools, and fast product shipping.
 
-[![Tokscale Stats](https://tokscale.ai/api/embed/tmdry4530/svg?template=blueprint&color=YlGnBu&tokens=compact&cost=compact)](https://tokscale.ai/u/tmdry4530)
+<p align="center">
+  <a href="https://tokscale.ai/u/tmdry4530"><img src="https://tokscale.ai/api/embed/tmdry4530/svg?template=blueprint&color=YlGnBu&tokens=compact&cost=compact" alt="Tokscale Stats" /></a>
+</p>
 
 ## Stack
 
