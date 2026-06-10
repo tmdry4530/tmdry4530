@@ -15,24 +15,6 @@
     <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,express,nestjs,python,postgres,solidity,docker&theme=dark" alt="TypeScript, React, Next.js, Node.js, Express, NestJS, Python, PostgreSQL, Solidity, Docker" />
   </p>
 
-  <p>
-    <img src="https://img.shields.io/badge/AI%20Agents-0D1117?style=for-the-badge&logo=openai&logoColor=white" alt="AI agents" />
-    <img src="https://img.shields.io/badge/Trading%20Signals-0D1117?style=for-the-badge&logo=bitcoin&logoColor=F7931A" alt="Trading signals" />
-    <img src="https://img.shields.io/badge/Ops%20Consoles-0D1117?style=for-the-badge&logo=grafana&logoColor=F46800" alt="Operations consoles" />
-    <img src="https://img.shields.io/badge/Civic%20Tools-0D1117?style=for-the-badge&logo=dotnet&logoColor=512BD4" alt="Civic tools" />
-    <img src="https://img.shields.io/badge/Desktop%20Apps-0D1117?style=for-the-badge&logo=windows11&logoColor=0078D4" alt="Desktop apps" />
-    <img src="https://img.shields.io/badge/Web3-0D1117?style=for-the-badge&logo=ethereum&logoColor=white" alt="Web3" />
-  </p>
-
-  <p>
-    <a href="https://github.com/tmdry4530/K-Terminal"><img src="https://img.shields.io/badge/K%20Terminal-F59E0B?style=for-the-badge&logo=javascript&logoColor=0D1117&labelColor=0D1117" alt="K-Terminal" /></a>
-    <a href="https://github.com/tmdry4530/runbook-lens"><img src="https://img.shields.io/badge/runbook%20lens-06B6D4?style=for-the-badge&logo=dotnet&logoColor=0D1117&labelColor=0D1117" alt="runbook-lens" /></a>
-    <a href="https://github.com/tmdry4530/civicdesk-csharp"><img src="https://img.shields.io/badge/civicdesk-8B5CF6?style=for-the-badge&logo=dotnet&logoColor=white&labelColor=0D1117" alt="civicdesk-csharp" /></a>
-    <a href="https://github.com/tmdry4530/agent-bounty-hunter"><img src="https://img.shields.io/badge/agent%20bounty%20hunter-22D3EE?style=for-the-badge&logo=typescript&logoColor=0D1117&labelColor=0D1117" alt="agent-bounty-hunter" /></a>
-    <a href="https://github.com/tmdry4530/ops-console"><img src="https://img.shields.io/badge/ops%20console-22D3EE?style=for-the-badge&logo=typescript&logoColor=0D1117&labelColor=0D1117" alt="ops-console" /></a>
-    <a href="https://github.com/tmdry4530/SyncSpaceDesktop"><img src="https://img.shields.io/badge/SyncSpace%20Desktop-06B6D4?style=for-the-badge&logo=windows11&logoColor=white&labelColor=0D1117" alt="SyncSpaceDesktop" /></a>
-  </p>
-
   <br />
 
   <picture>
