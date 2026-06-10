@@ -12,7 +12,8 @@
   <br />
 
   <p>
-    <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,python,cs,dotnet,solidity,docker,githubactions,sqlite&theme=dark" alt="TypeScript, React, Next.js, Node.js, Python, C#, .NET, Solidity, Docker, GitHub Actions, SQLite" />
+    <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,express,nestjs,python,postgres,solidity,docker,githubactions,sqlite,railway&theme=dark" alt="TypeScript, React, Next.js, Node.js, Express, NestJS, Python, PostgreSQL, Solidity, Docker, GitHub Actions, SQLite, Railway" />
+    <img src="https://img.shields.io/badge/EC2-0D1117?style=for-the-badge&logo=amazonec2&logoColor=FF9900" alt="Amazon EC2" />
   </p>
 
   <p>
