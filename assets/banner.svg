@@ -1,15 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="1200" height="180" fill="none" role="img" aria-label="chamdom - AI agents, steady shipping, multi-domain systems">
   <defs>
+    <linearGradient id="scan" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="terminal-reveal">
+      <rect class="reveal" x="96" y="94" width="730" height="36"/>
+    </clipPath>
     <style>
       .title { font: 700 56px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
       .sub { font: 500 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .reveal { animation: type 7s steps(58, end) infinite; }
+      .cursor { animation: cursor 7s steps(58, end) infinite, blink 0.8s step-end infinite; }
+      .scan { animation: scan 7s ease-in-out infinite; }
+      @keyframes type {
+        0%, 10% { width: 0; }
+        70%, 86% { width: 730px; }
+        100% { width: 0; }
+      }
+      @keyframes cursor {
+        0%, 10% { transform: translateX(-730px); }
+        70%, 86% { transform: translateX(0); }
+        100% { transform: translateX(-730px); }
+      }
+      @keyframes blink {
+        50% { opacity: 0; }
+      }
+      @keyframes scan {
+        0% { transform: translateX(-1200px); opacity: 0; }
+        30%, 65% { opacity: 1; }
+        100% { transform: translateX(1200px); opacity: 0; }
+      }
     </style>
   </defs>
 
   <rect width="1200" height="180" rx="18" fill="#0D1117"/>
-  <path d="M96 126H486" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"/>
+  <rect class="scan" y="0" width="220" height="180" fill="url(#scan)" opacity="0"/>
+  <path d="M96 132H826" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"/>
   <g>
     <text class="title" x="96" y="84" fill="#E6EDF3">chamdom</text>
-    <text class="sub" x="96" y="118" fill="#8B949E">AI agents / steady shipping / multi-domain systems</text>
+    <g clip-path="url(#terminal-reveal)">
+      <text class="sub" x="96" y="118" fill="#8B949E">AI agents / steady shipping / multi-domain systems</text>
+    </g>
+    <rect class="cursor" x="826" y="96" width="10" height="28" rx="2" fill="#22D3EE"/>
   </g>
 </svg>
